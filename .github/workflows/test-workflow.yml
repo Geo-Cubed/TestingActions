@@ -1,0 +1,9 @@
+name: Test Action
+run-name: ${{ github.actor }} is testing out actions
+on: [push]
+jobs:
+  Explore-Actions:
+    steps:
+      - run: echo "github action test step 1"
+      - run: echo "this is triggered by ${{ github.event_name }} and running on ${{ runner.os }}"
+      - run: echo "on branch ${{ github.ref }} on repository ${{ github.repository }}"
