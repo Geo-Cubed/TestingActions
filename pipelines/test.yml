@@ -6,9 +6,9 @@ pool:
 
 resources:
  repositories:
- - repository: Squid-League-4
-   type: git
-   name: Squid-League-4
+   - repository: Squid-League-4
+     type: git
+     name: Squid-League-4
 
 stages:
 - template: azure-pipelines.yml@Squid-League-4
