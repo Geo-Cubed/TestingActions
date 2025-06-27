@@ -1,8 +1,7 @@
-trigger:
-- master
-
-pool:
-  vmImage: ubuntu-latest
+trigger: 
+  branches:
+    include:
+      - main
 
 resources:
   repositories:
