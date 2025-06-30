@@ -1,0 +1,10 @@
+trigger: none
+
+resources:
+  repositories:
+    - repository: Squid-League-4
+      type: git
+      name: Squid-League-4
+
+stages:
+- template: ci-deploy.yml@Squid-League-4
