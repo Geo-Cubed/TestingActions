@@ -1,5 +1,4 @@
-pr:
-- main
+trigger: none
 
 resources:
   repositories:
